@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class prime_number {
+public class Prime_number {
 
     static void isPrime(int n){
 
@@ -28,6 +28,8 @@ public class prime_number {
 
        System.out.println("Enter a number:");
         int num = sc.nextInt();
+        sc.close();
+        
 
         isPrime(num);
 

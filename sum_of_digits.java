@@ -18,6 +18,7 @@ public class sum_of_digits {
 
         System.out.println("Enter a number");
         int num = sc.nextInt();
+        sc.close();
 
         System.out.println(sumOfDigit(num));;
     }
