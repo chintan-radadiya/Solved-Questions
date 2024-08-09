@@ -24,6 +24,7 @@ public class Reverse_a_Number {
 
         System.out.println("Enter a number to reverse:");
         int num = sc.nextInt();
+        sc.close();
 
         System.out.println(reverse(num));
 
