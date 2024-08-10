@@ -43,6 +43,7 @@ public class Armstrong_number {
         
 
         System.out.println("Number is armstrong: " + isArmstrong(num));
+        sc.close();
 
     }
 }
